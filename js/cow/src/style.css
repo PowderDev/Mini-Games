@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  background: #2c3e50;
+  height: 100vh;
+  position: relative;
+}
+
+.cow {
+  content: "";
+  position: absolute;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.howitworksdaily.com%2Fwp-content%2Fuploads%2F2015%2F11%2F108227041.jpg");
+  background-size: contain;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  background: rgb(55, 201, 150);
+  border: none;
+  font-weight: bold;
+  border-radius: 1rem;
+  cursor: pointer;
+}
